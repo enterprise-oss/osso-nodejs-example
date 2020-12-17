@@ -1,0 +1,34 @@
+
+{
+  "name": "Osso NodeJS Express Example",
+  "description": "Example Express app for integrating Osso for SAML SSO",
+  "keywords": [
+    "SAML",
+    "SSO",
+    "Osso",
+    "NodeJS",
+    "Express"
+  ],
+  "logo": "https://www.ossoapp.com/img/logo.svg",
+  "repository": "https://github.com/enterprise-oss/osso-nodejs-example",
+  "website": "https://ossoapp.com",
+  "addons": [],
+  "env": {
+    "SESSION_SECRET": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "generator": "secret"
+    },
+    "OSSO_CLIENT_ID": {
+      "description": "OAuth client ID for Osso",
+      "value": "demo-client-id"
+    },
+    "OSSO_CLIENT_SECRET": {
+      "description": "OAuth client SECRET for Osso",
+      "value": "demo-client-secret"
+    },
+    "OSSO_BASE_URL": {
+      "description": "Base URL for your Osso instance",
+      "value": "https://demo.ossoapp.com"
+    }
+  },
+}
