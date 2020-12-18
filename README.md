@@ -1,17 +1,17 @@
 # Osso NodeJS Example
 
-This repository contains a new NodeJS Express application with the bare minimum work to demonstrate how to integrate Osso.
+This repository contains a new NodeJS Express application with the bare minimum work needed to demonstrate how to integrate Osso.
 
 ## Osso integration
 
-Osso promises an easy integration to your Rails app. We provide an passportjs provider package [passport-osso](https://github.com/enterprise-oss/passport-osso) to make integration a breeze.
+Osso promises an easy integration to your NodeJS app. We provide a passportjs provider package [passport-osso](https://github.com/enterprise-oss/passport-osso) to make the whole process a breeze.
 
 
 ## Running the example
 
 This example can be run locally or in production. Osso provides a [demo Osso instance](https://demo.ossoapp.com) and a Fake IDP ([repo](https://github.com/enterprise-oss/sinatra-ruby-idp) | [application](https://idp-osso.herokuapp.com)) that allow you to run this example and perform the full authentication flow.
 
-The Osso demo instance reseeds it's database every hour, but is seeded with **most of** the data needed to run this example application.
+The Osso demo instance reseeds its database every hour, but is seeded with **most of** the data needed to run this example application.
 
 An OAuth Client with a client ID `demo-client-id` and client secret `demo-client-secret` will always be available - use these in your ENV by either copying the `.env.sample` or by deploying to Heroku which will use the values from `app.json`.
 
